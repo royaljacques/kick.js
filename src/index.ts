@@ -22,7 +22,7 @@ export default class KickChat extends EventEmitter{
     }
     connect(){
         this.ws.on('message', async(data) => {
-            this.emit("messages", data.toString())
+            this.emit("messages", JSON.parse(JSON.parse(data.toString()).data))
             }
         );
         

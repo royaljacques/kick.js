@@ -1,6 +1,6 @@
 {
   "name": "better_kickchat.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple api to connect to the kick chat.",
   "main": "build/index.js",
   "types": "build/index.d.ts",

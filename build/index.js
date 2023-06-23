@@ -72,7 +72,7 @@ var KickChat = /** @class */ (function (_super) {
         var _this = this;
         this.ws.on('message', function (data) { return __awaiter(_this, void 0, void 0, function () {
             return __generator(this, function (_a) {
-                this.emit("messages", data.toString());
+                this.emit("messages", JSON.parse(JSON.parse(data.toString()).data));
                 return [2 /*return*/];
             });
         }); });
