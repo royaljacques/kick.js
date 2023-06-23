@@ -1,6 +1,6 @@
 {
   "name": "kick.js",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "simple api to connect to the kick chat.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
